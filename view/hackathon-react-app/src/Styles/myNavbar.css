@@ -1,0 +1,17 @@
+.navLinks{
+    background-color: #1f5156 !important;
+}
+.logo{
+    color: aliceblue !important;
+    font-weight: bold !important;
+    font-size: 30px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.active{
+    border-bottom: 2px solid rgb(196, 196, 196) !important;
+}
+.navlist{
+    color: aliceblue !important;
+    font-size: 15px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}

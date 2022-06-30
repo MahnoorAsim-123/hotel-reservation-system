@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .myContainer{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Assets//bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+    /* animation: animationColor 8s linear infinite; */
+  }
+  /* @keyframes animationColor{ 
+  
+    0%{
+      background-image: url('./assets/background.jpg');
+    }
+  
+    25%{
+      background-image: url('./assets/9.jpg');
+    }
+  
+    50%{
+      background-image: url('./assets/8.jpg');
+    }
+    75%{
+      background-image: url('./assets/5.jpg');
+    }
+    100%{
+      background-image: url('./assets/6.jpg');
+    }
+    
+  } */
+  .logoImg{
+      width: 100%;
+      text-align: center;
+      border-radius: 50%;
+      margin-top: -100px ;
+  }
+  .logoImg > img{
+      width: 150px;
+      margin: 40px 0px;
+      border-radius: 50%;
+  }
+  .myform{
+    border: 1px solid #e4e4e4;
+    border-radius: 10px;
+    width: 500px;
+    /* background-color: whitesmoke; */
+    backdrop-filter: blur(25px);
+    padding: 20px 30px;
+  }
+  .myform h1{
+    color: white;
+    margin: 15px 0px;
+    letter-spacing: 1px;
+    font-size: 35px;
+  }
+  .myform input{
+    padding: 13px 10px;
+    width: 100%;
+    margin: 10px 0px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  .myform  .signupBtn{
+    padding: 13px 10px;
+    width: 100%;
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #0083b0;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  .myform .signupBtn:hover{
+    background-color: #04536d;
+    font-weight: bold;
+  }
+  
+  .myform .loginBtn{
+    padding: 13px 10px;
+    width: 100%;
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #0083b0;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  .myform .loginBtn:hover{
+    background-color: #04536d;
+    font-weight: bold;
+  }
+.Log{
+    outline: none;
+    border: none;
+    background: none;
+    color: blue;
+    cursor: pointer;
+}
+.Log:hover{
+    color: grey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.loader{
+  text-align: center;
+  margin-top: 6px;
+}
